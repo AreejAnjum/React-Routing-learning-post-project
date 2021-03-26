@@ -1,0 +1,22 @@
+
+.blog a{
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+
+.blog li{
+    display: inline-block;
+    margin: 15px
+}
+
+.blog ul{
+ list-style: none;
+ text-align: center;
+}
+
+.blog a:hover,
+.blog a:active
+/* .blog a.myActiveClass */
+    {color: grey;
+}
